@@ -12,6 +12,7 @@ body{
 
 .header{
     display: flex;
+    border: 2px, solid, black ;
     border-radius: 20px 20px 0 0;
     background-color: #0cab8b;
     justify-content: space-between;
@@ -29,4 +30,21 @@ body{
     margin-right: 34%;
     font-size: 50px;
     color: black;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr  2fr  1fr  1fr ;
+    grid-template-rows: 50px;
+    background-color: #0cab8b;
+
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    color: black;
+    font-size: 20px ;
 }
