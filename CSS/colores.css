@@ -1,0 +1,12 @@
+:root{
+    --color-cabezera:#efa22d;
+    --color-arriba-fondo:#0ffff8;
+    --color-abajo-fondo:#087ab6;
+    --color-botones: #e7ad0e;
+    --color-botones-press: #e48315;
+    --color-fondo-tabla: #cdcdcd;
+}
+
+body{
+    background: linear-gradient(to bottom, var(--color-arriba-fondo), var(--color-abajo-fondo));
+}

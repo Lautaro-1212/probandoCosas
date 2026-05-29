@@ -1,0 +1,46 @@
+.body{
+    display: grid;
+    grid-template-columns: 1fr 1fr  2fr  1fr  1fr ;
+    grid-template-rows: 50px;
+    background-color: var(--color-cabezera);
+}
+
+.fila{
+    display: grid;
+    grid-template-columns: 1fr 1fr  2fr  1fr  1fr ;
+    grid-template-rows: 50px;
+    background-color: var(--color-fondo-tabla);
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    color: black;
+    font-size: 20px ;
+}
+
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    color: black;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.botones .botonesAccion{
+    height: 30px;
+    width: 80px;
+    background-color: var(--color-botones);
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.botones .botonesAccion:active{
+    background-color: var(--color-botones-press);
+}
